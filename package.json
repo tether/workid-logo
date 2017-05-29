@@ -4,6 +4,7 @@
   "description": "WorkID logo component with status update",
   "main": "index.js",
   "scripts": {
+    "build": "browserify test/logo.js -o test/build.js -t [ babelify --presets [ es2015 react ] ]",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
