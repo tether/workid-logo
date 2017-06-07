@@ -27,6 +27,6 @@
     "react-fatigue-dev": "github:tj/react-fatigue-dev#704f778"
   },
   "dependencies": {
-    "tether-logo": "^1.0.0"
+    "tether-logo": "^1.0.1"
   }
 }
