@@ -2,35 +2,28 @@
   "name": "workid-logo",
   "version": "1.0.0",
   "description": "WorkID logo component with status update",
-  "main": "index.js",
-  "scripts": {
-    "build": "browserify test/logo.js -o test/build.js -t [ babelify --presets [ es2015 react ] ]",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "build/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bredele/workid-logo.git"
+    "url": "git+https://github.com/tether/workid-logo.git"
   },
   "keywords": [
+    "tether",
     "workid",
-    "logo",
-    "component",
-    "tether"
+    "logo"
   ],
-  "author": "Olvier <olivier.wietrich@gmail.com>",
+  "author": "Olvier Wietrich <olivier.wietrich@gmail.com>",
   "license": "MIT",
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
   "bugs": {
-    "url": "https://github.com/bredele/workid-logo/issues"
+    "url": "https://github.com/tether/workid-logo/issues"
   },
-  "homepage": "https://github.com/bredele/workid-logo#readme",
+  "homepage": "https://github.com/tether/workid-logo#readme",
   "devDependencies": {
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "babelify": "^7.3.0",
-    "browserify": "^14.4.0",
-    "react-dom": "^15.5.4"
-  },
-  "dependencies": {
-    "react": "^15.5.4"
+    "react-fatigue-dev": "github:tj/react-fatigue-dev#704f778"
   }
 }
