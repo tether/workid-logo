@@ -1,6 +1,6 @@
 {
   "name": "workid-logo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "WorkID logo component with status update",
   "main": "build/index.js",
   "repository": {
@@ -27,6 +27,6 @@
     "react-fatigue-dev": "github:tj/react-fatigue-dev#704f778"
   },
   "dependencies": {
-    "tether-logo": "^1.1.0"
+    "tether-logo": "^1.1.1"
   }
 }
