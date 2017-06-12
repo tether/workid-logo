@@ -1,6 +1,6 @@
 {
   "name": "workid-logo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "WorkID logo component with status update",
   "main": "build/index.js",
   "repository": {

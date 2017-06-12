@@ -28,7 +28,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = function (props) {
   return _react2.default.createElement(
     _tetherLogo2.default,
-    { className: 'workid-logo tether-logo', title: 'WORKID', message: props.message },
+    { className: 'workid-logo tether-logo', title: 'work id', message: props.message },
     _react2.default.createElement(
       'svg',
       { fill: '#3fa2f3', height: '36', viewBox: '0 0 24 20', width: '36' },
